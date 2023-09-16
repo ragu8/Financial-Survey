@@ -25,13 +25,15 @@ FinRL has three layers: market environments, agents, and applications.  For a tr
 <img align="center" src=image/finrl_framework.jpeg>
 </div>
 <br>
-A quick start: [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA) 
+A quick start:<br>
+
++ [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA)
 
 ## Recent Advances
 
 A complete survey paper:
 
-[Recent advances in reinforcement learning in finance. Mathematical Finance, 2023. ](papers/Recent_Advances/Recent_Advances.pdf)
++ [Recent advances in reinforcement learning in finance. Mathematical Finance, 2023. ](papers/Recent_Advances/Recent_Advances.pdf)
 
 ## Publications
 
@@ -113,6 +115,7 @@ OHLCV: open, high, low, and close prices; volume.
 <div align="center">
 <img align="center" src=image/book.png />
 </div>
+<br>
 
 + [O'reilly] [Machine Learning & Data Science Blueprints for Finance](Books/DS_for_FIN.pdf)
 
