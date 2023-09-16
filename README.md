@@ -20,6 +20,7 @@
   - [Overview](#overview)
   - [Recent Advances](#recent-advances)
   - [Publications](#publications)
+  - [Related Works](#relatedworks)
   - [Data Sources](#data-sources)
   - [Tutorials](#tutorials)
 
@@ -52,7 +53,9 @@ Hambly, Ben, Renyuan Xu, and Huining Yang. "[Recent advances in reinforcement le
 |Deep reinforcement learning for automated stock trading: An ensemble strategy| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Base_papers/Ensemble-Strategy-AST.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta/blob/master/tutorials/2-Advance/FinRL_Ensemble_StockTrading_ICAIF_2020/FinRL_Ensemble_StockTrading_ICAIF_2020.ipynb) | 103 | 2020 |
 |Practical deep reinforcement learning approach for stock trading | NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services| [paper](papers/Base_papers/Practical-DRL-AST.pdf) [code](https://github.com/AI4Finance-Foundation/DQN-DDPG_Stock_Trading](https://github.com/AI4Finance-Foundation/FinRL/tree/master/examples))| 131 | 2018 |
 
-
+## Related Works
+  + [Most Relatable Works] [csv](Docs/most_relatable_work.csv)
++ [Similar Works] [csv](Docs/Similar_work.csv)
 
 ##  Data Sources
 
