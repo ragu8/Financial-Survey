@@ -18,6 +18,7 @@
 ## Outline
 
   - [Overview](#overview)
+  - [Recent Advances](#recent-advances)
   - [Publications](#publications)
   - [Data Sources](#data-sources)
   - [Tutorials](#tutorials)
@@ -33,8 +34,11 @@ FinRL has three layers: market environments, agents, and applications.  For a tr
 
 A quick start: Stock_NeurIPS2018.ipynb. Videos [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA) at [AI4Finance Youtube Channel](https://www.youtube.com/channel/UCrVri6k3KPBa3NhapVV4K5g).
 
+## Recent Advances
 
+A complete survey paper:
 
+Hambly, Ben, Renyuan Xu, and Huining Yang. "[Recent advances in reinforcement learning in finance.](papers/Recent_Advances.pdf)" Mathematical Finance, 2023. 
 
 ## Publications
 
