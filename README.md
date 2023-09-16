@@ -1,4 +1,4 @@
-# FinRL: Financial Reinforcement Learning 
+# FinRL: Financial Reinforcement Learning - Survey
 
 
 <div align="center">
@@ -24,14 +24,14 @@ FinRL has three layers: market environments, agents, and applications.  For a tr
 <div align="center">
 <img align="center" src=image/finrl_framework.jpeg>
 </div>
-
+<br>
 A quick start: [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA) 
 
 ## Recent Advances
 
 A complete survey paper:
 
-Hambly, Ben, Renyuan Xu, and Huining Yang. "[Recent advances in reinforcement learning in finance.](papers/Recent_Advances/Recent_Advances.pdf)" Mathematical Finance, 2023. 
+"[Recent advances in reinforcement learning in finance. Mathematical Finance, 2023. ](papers/Recent_Advances/Recent_Advances.pdf)" 
 
 ## Publications
 
