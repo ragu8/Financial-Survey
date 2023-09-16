@@ -31,7 +31,7 @@ A quick start: [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA)
 
 A complete survey paper:
 
-"[Recent advances in reinforcement learning in finance. Mathematical Finance, 2023. ](papers/Recent_Advances/Recent_Advances.pdf)" 
+[Recent advances in reinforcement learning in finance. Mathematical Finance, 2023. ](papers/Recent_Advances/Recent_Advances.pdf)
 
 ## Publications
 
@@ -47,8 +47,9 @@ A complete survey paper:
 
 ## Related Works
   + [Most Relatable Works] [csv](Docs/most_relatable_work.csv)
-+ [Similar Works] [csv](Docs/Similar_work.csv)
-
+  + [Similar Works] [csv](Docs/Similar_work.csv)  
+  + [Research Rabbit] [Links]([Docs/Similar_work.csv](https://www.researchrabbitapp.com/collection/public/PZ9MYDP0LO))
+    
 ##  Data Sources
 
 |Data Source |Type |Range and Frequency |Request Limits|Raw Data|Preprocessed Data|
