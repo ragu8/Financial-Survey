@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<img align="center" src=image/logo_transparent_background.png width="55%"/>
+<img align="center" src=image/banner.png />
 </div>
 
 
@@ -108,6 +108,12 @@ OHLCV: open, high, low, and close prices; volume.
 
 
 ## Tutorials
+#### Books
+<div align="center">
+<img align="center" src=image/book.png />
+</div>
+
++ [O'reilly] [Machine Learning & Data Science Blueprints for Finance](Books/DS_for_FIN.pdf)
 
 #### ODSC - Open Data Science
 + [Medium] [First Steps Before Applying Reinforcement Learning for Trading](https://odsc.medium.com/first-steps-before-applying-reinforcement-learning-for-trading-f45c15e98bca)
