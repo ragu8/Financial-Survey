@@ -20,7 +20,7 @@
   - [Overview](#overview)
   - [Recent Advances](#recent-advances)
   - [Publications](#publications)
-  - [Related Works](#relatedworks)
+  - [Related Works](#related-works)
   - [Data Sources](#data-sources)
   - [Tutorials](#tutorials)
 
