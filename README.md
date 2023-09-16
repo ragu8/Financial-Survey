@@ -38,19 +38,19 @@ A quick start: Stock_NeurIPS2018.ipynb. Videos [FinRL](http://www.youtube.com/wa
 
 A complete survey paper:
 
-Hambly, Ben, Renyuan Xu, and Huining Yang. "[Recent advances in reinforcement learning in finance.](papers/Recent_Advances.pdf)" Mathematical Finance, 2023. 
+Hambly, Ben, Renyuan Xu, and Huining Yang. "[Recent advances in reinforcement learning in finance.](papers/Recent_Advances/Recent_Advances.pdf)" Mathematical Finance, 2023. 
 
 ## Publications
 
 |Title |Conference |Link|Citations|Year|
 |  ----  |  ----  |  ----  |  ----  |  ----  |
-|**FinRL-Meta**: FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning| NeurIPS 2022| [paper](papers/FinRL-Meta.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta) | 1 | 2022 |
-|**FinRL**: Deep reinforcement learning framework to automate trading in quantitative finance| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/FinRL-Meta.pdf) | 24 | 2021 |
-|**FinRL-Podracer**: High performance and scalable deep reinforcement learning for quantitative finance | ACM International Conference on AI in Finance (ICAIF) | [paper](papers/FinRL-Podracer.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL_Podracer) | 9 | 2021 |
-|Explainable deep reinforcement learning for portfolio management: An empirical approach| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Empirical-Approach-portfolio.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta/blob/master/tutorials/2-Advance/FinRL_PortfolioAllocation_Explainable_DRL/FinRL_PortfolioAllocation_Explainable_DRL.py](https://github.com/AI4Finance-Foundation/FinRL-Tutorials/tree/master/2-Advance))| 3 | 2021 |
-|**FinRL**: A deep reinforcement learning library for automated stock trading in quantitative finance| NeurIPS 2020 Deep RL Workshop  | [paper](papers/Quantitative-Finance-FinRL-AST.pdf) | 54 | 2020 |
-|Deep reinforcement learning for automated stock trading: An ensemble strategy| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Ensemble-Strategy-AST.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta/blob/master/tutorials/2-Advance/FinRL_Ensemble_StockTrading_ICAIF_2020/FinRL_Ensemble_StockTrading_ICAIF_2020.ipynb) | 103 | 2020 |
-|Practical deep reinforcement learning approach for stock trading | NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services| [paper](papers/Practical-DRL-AST.pdf) [code](https://github.com/AI4Finance-Foundation/DQN-DDPG_Stock_Trading](https://github.com/AI4Finance-Foundation/FinRL/tree/master/examples))| 131 | 2018 |
+|**FinRL-Meta**: FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning| NeurIPS 2022| [paper](papers/Base_papers/FinRL-Meta.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta) | 1 | 2022 |
+|**FinRL**: Deep reinforcement learning framework to automate trading in quantitative finance| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Base_papers/FinRL-Meta.pdf) | 24 | 2021 |
+|**FinRL-Podracer**: High performance and scalable deep reinforcement learning for quantitative finance | ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Base_papers/FinRL-Podracer.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL_Podracer) | 9 | 2021 |
+|Explainable deep reinforcement learning for portfolio management: An empirical approach| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Base_papers/Empirical-Approach-portfolio.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta/blob/master/tutorials/2-Advance/FinRL_PortfolioAllocation_Explainable_DRL/FinRL_PortfolioAllocation_Explainable_DRL.py](https://github.com/AI4Finance-Foundation/FinRL-Tutorials/tree/master/2-Advance))| 3 | 2021 |
+|**FinRL**: A deep reinforcement learning library for automated stock trading in quantitative finance| NeurIPS 2020 Deep RL Workshop  | [paper](papers/Base_papers/Quantitative-Finance-FinRL-AST.pdf) | 54 | 2020 |
+|Deep reinforcement learning for automated stock trading: An ensemble strategy| ACM International Conference on AI in Finance (ICAIF) | [paper](papers/Base_papers/Ensemble-Strategy-AST.pdf) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta/blob/master/tutorials/2-Advance/FinRL_Ensemble_StockTrading_ICAIF_2020/FinRL_Ensemble_StockTrading_ICAIF_2020.ipynb) | 103 | 2020 |
+|Practical deep reinforcement learning approach for stock trading | NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services| [paper](papers/Base_papers/Practical-DRL-AST.pdf) [code](https://github.com/AI4Finance-Foundation/DQN-DDPG_Stock_Trading](https://github.com/AI4Finance-Foundation/FinRL/tree/master/examples))| 131 | 2018 |
 
 
 
