@@ -109,8 +109,7 @@ OHLCV: open, high, low, and close prices; volume.
 
 
 ## Tutorials
-<details><summary> <i>[click to expand]</i></summary>
-<div>
+
 #### ODSC - Open Data Science
 + [Medium] [First Steps Before Applying Reinforcement Learning for Trading](https://odsc.medium.com/first-steps-before-applying-reinforcement-learning-for-trading-f45c15e98bca)
   
@@ -118,6 +117,10 @@ OHLCV: open, high, low, and close prices; volume.
   
 #### Conventional Machine Learning Methods
 + [Kaggle] [Mean-Variance Optimization of Portfolios](https://www.kaggle.com/code/vijipai/lesson-5-mean-variance-optimization-of-portfolios/notebook)
+  
+<details><summary> <i>[click to expand]</i></summary>
+<div>
+
 
 #### Xiao-Yang (Yanglet) Liu and Steven Li
 
