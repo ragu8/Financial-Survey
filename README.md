@@ -25,7 +25,7 @@ FinRL has three layers: market environments, agents, and applications.  For a tr
 <img align="center" src=image/finrl_framework.jpeg>
 </div>
 
-A quick start: Stock_NeurIPS2018.ipynb. Videos [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA) at [AI4Finance Youtube Channel](https://www.youtube.com/channel/UCrVri6k3KPBa3NhapVV4K5g).
+A quick start: [FinRL](http://www.youtube.com/watch?v=ZSGJjtM-5jA) 
 
 ## Recent Advances
 
