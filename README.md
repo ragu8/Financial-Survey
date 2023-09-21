@@ -35,6 +35,8 @@ A complete survey paper:
 
 + [Recent advances in reinforcement learning in finance. Mathematical Finance, 2023. ](papers/Recent_Advances/Recent_Advances.pdf)
 
++ [Reinforcement learning in financial markets - a survey, 2018. ](papers/Recent_Advances/RL-fin.pdf)
+
 ## Publications
 
 |Title |Conference |Link|Citations|Year|
@@ -48,7 +50,7 @@ A complete survey paper:
 |Practical deep reinforcement learning approach for stock trading | NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services| [paper](papers/Base_papers/Practical-DRL-AST.pdf) [code](https://github.com/AI4Finance-Foundation/DQN-DDPG_Stock_Trading](https://github.com/AI4Finance-Foundation/FinRL/tree/master/examples))| 131 | 2018 |
 
 ## Related Works
-  + [Most Relatable Works] [csv](Docs/most_relatable_work.csv)
+  + [Most Relatable Works] [csv](Docs/most_relatable_work.csv)[pdf](papers/Relatable-papers)
   + [Similar Works] [csv](Docs/Similar_work.csv)  
   + [Research Rabbit] [Links](https://www.researchrabbitapp.com/collection/public/PZ9MYDP0LO)
     
@@ -118,6 +120,13 @@ OHLCV: open, high, low, and close prices; volume.
 <br>
 
 + [O'reilly] [Machine Learning & Data Science Blueprints for Finance](Books/DS_for_FIN.pdf)
+
+<div align="center">
+<img align="center" src=image/book1.png />
+</div>
+<br>
+
++ [MIT Press] [Reinforcement Learning: An Introduction](Books/RLI.pdf)
 
 #### ODSC - Open Data Science
 + [Medium] [First Steps Before Applying Reinforcement Learning for Trading](https://odsc.medium.com/first-steps-before-applying-reinforcement-learning-for-trading-f45c15e98bca)
