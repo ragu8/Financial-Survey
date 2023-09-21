@@ -50,9 +50,9 @@ A complete survey paper:
 |Practical deep reinforcement learning approach for stock trading | NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services| [paper](papers/Base_papers/Practical-DRL-AST.pdf) [code](https://github.com/AI4Finance-Foundation/DQN-DDPG_Stock_Trading](https://github.com/AI4Finance-Foundation/FinRL/tree/master/examples))| 131 | 2018 |
 
 ## Related Works
-  + [Most Relatable Works] [csv, ](Docs/most_relatable_work.csv)  [pdf](papers/Relatable-papers)
-  + [Similar Works] [csv](Docs/Similar_work.csv)  
-  + [Research Rabbit] [Links](https://www.researchrabbitapp.com/collection/public/PZ9MYDP0LO)
+  + Most Relatable Work [csv, ](Docs/most_relatable_work.csv)  [pdf](papers/Relatable-papers)
+  + Similar Works [csv](Docs/Similar_work.csv)  
+  + Research Rabbit [Links](https://www.researchrabbitapp.com/collection/public/PZ9MYDP0LO)
     
 ##  Data Sources
 
