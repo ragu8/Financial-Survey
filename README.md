@@ -318,6 +318,244 @@ A complete survey paper:
   </div>
 </details>
 
+<details>
+  <summary><i>Empirical Approach</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Components</td>
+          <td>The paper discusses several key components in the context of portfolio management with deep reinforcement learning (DRL). These components include linear models in hindsight, DRL agents, feature weights, and conventional machine learning methods with forward-pass.</td>
+        </tr>
+        <tr>
+          <td>Environments</td>
+          <td>The paper evaluates the proposed approach in the context of a portfolio management task involving Dow Jones 30 constituent stocks. The data spans from January 1, 2009, to September 1, 2021.</td>
+        </tr>
+        <tr>
+          <td>DRL Agents</td>
+          <td>The paper highlights the challenge of explaining DRL-based trading strategies due to the black-box nature of deep neural networks. It emphasizes the need for understanding the decision-making processes of DRL agents in the financial context.</td>
+        </tr>
+        <tr>
+          <td>Framework</td>
+          <td>The authors propose an empirical approach to explain the strategies of DRL agents for portfolio management. The approach involves using linear models in hindsight as reference models and integrated gradients to define feature weights for DRL agents.</td>
+        </tr>
+        <tr>
+          <td>Data Processing</td>
+          <td>The paper uses features related to stock returns and covariances as input for both linear models and DRL agents. It focuses on quantifying the relationship between portfolio returns and these features.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>The approach aims to provide explanations for DRL-based portfolio management strategies, which can be crucial for investment banks, asset management companies, and hedge funds. It helps traders understand the potential risk of a strategy.</td>
+        </tr>
+        <tr>
+          <td>Disadvantages</td>
+          <td>While the paper presents an empirical approach, it doesn't delve into the specific implementation details of the DRL agents or machine learning methods used. The generalizability of the approach to different financial datasets or markets is not extensively discussed.</td>
+        </tr>
+        <tr>
+          <td>Tutorials</td>
+          <td>The paper doesn't provide tutorials or step-by-step guides for implementing the proposed approach. Readers interested in replicating or extending the research may need to refer to other sources or documentation.</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>The paper concludes that the proposed approach empirically reveals that DRL agents exhibit a stronger multi-step prediction power than machine learning methods in the context of portfolio management.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary><i>Quantitative Finance</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Section</th>
+          <th>Summary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Components</td>
+          <td>- Discusses key components in DRL-based portfolio management: linear models, DRL agents, feature weights, and conventional ML methods.</td>
+        </tr>
+        <tr>
+          <td>Environments</td>
+          <td>- Evaluates DRL approach in portfolio management using Dow Jones 30 stocks from 2009 to 2021.</td>
+        </tr>
+        <tr>
+          <td>DRL Agents</td>
+          <td>- Highlights challenges in explaining DRL-based trading strategies due to their black-box nature.</td>
+        </tr>
+        <tr>
+          <td>Application</td>
+          <td>- Mentions three application demonstrations: single stock trading, multiple stock trading, and portfolio allocation.</td>
+        </tr>
+        <tr>
+          <td>Framework</td>
+          <td>- Introduces FinRL, a DRL library for quantitative finance, easing the development of trading strategies.</td>
+        </tr>
+        <tr>
+          <td>Existing Libraries</td>
+          <td>- Compares FinRL to other machine learning libraries and highlights its features.</td>
+        </tr>
+        <tr>
+          <td>Data Processing</td>
+          <td>- Uses stock returns and covariances as input, focusing on the relationship with portfolio returns.</td>
+        </tr>
+        <tr>
+          <td>Benchmarks</td>
+          <td>- Provides performance metrics and baseline trading strategies for evaluation.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>- Emphasizes completeness, hands-on tutorials, and reproducibility for beginners.</td>
+        </tr>
+        <tr>
+          <td>Disadvantages</td>
+          <td>- Notes the complexity of implementing DRL strategies and the need for backtesting.</td>
+        </tr>
+        <tr>
+          <td>Tutorials</td>
+          <td>- Demonstrates the library's use through practical examples and walk-through tutorials.</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>- Summarizes the contributions and potential of FinRL in quantitative finance.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary><i>Automated Stock Trading: An Ensemble Strategy</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Components</td>
+          <td>- The paper proposes an ensemble strategy for automated stock trading using deep reinforcement learning (DRL). - Three DRL algorithms are employed in the ensemble strategy: Proximal Policy Optimization (PPO), Advantage Actor Critic (A2C), and Deep Deterministic Policy Gradient (DDPG). - The ensemble strategy combines the strengths of these algorithms to adapt to different market situations.</td>
+        </tr>
+        <tr>
+          <td>Environments</td>
+          <td>- The stock trading problem is formulated as a Markov Decision Process (MDP). - The state space includes information like stock prices, stock shares, balance, technical indicators (e.g., MACD, RSI), and more. - The action space allows for buying, selling, or holding stocks in a continuous manner.</td>
+        </tr>
+        <tr>
+          <td>DRL Agents</td>
+          <td>**Advantage Actor Critic (A2C):** - A2C is used as one of the agents in the ensemble. - It employs an advantage function to reduce the variance of policy gradients. - Multiple agents interact with the environment and synchronize their updates through a global network. **Deep Deterministic Policy Gradient (DDPG):** - DDPG encourages maximum investment return. - It combines elements of Q-learning and policy gradient and is suitable for continuous action spaces. - It uses a replay buffer to store and sample transitions for training. **Proximal Policy Optimization (PPO):** - PPO is used to improve policy gradient updates and ensure stability. - It introduces a clipping term to the objective function to control policy changes. - PPO aims to restrict policy updates to prevent large changes.</td>
+        </tr>
+        <tr>
+          <td>Application</td>
+          <td>- The ensemble strategy is applied to automated stock trading with the goal of maximizing investment return. - It adapts to different market conditions and risk constraints.</td>
+        </tr>
+        <tr>
+          <td>Framework</td>
+          <td>- The authors use the OpenAI Gym framework to implement the trading environment.</td>
+        </tr>
+        <tr>
+          <td>Existing Libraries</td>
+          <td>- The paper doesn't mention specific existing libraries, but it uses deep reinforcement learning algorithms like A2C, DDPG, and PPO.</td>
+        </tr>
+        <tr>
+          <td>Data Processing</td>
+          <td>- Technical indicators such as MACD, RSI, CCI, and ADX are calculated from stock price data. - The paper employs a load-on-demand technique to efficiently manage memory when dealing with large datasets.</td>
+        </tr>
+        <tr>
+          <td>Benchmarks</td>
+          <td>- The proposed ensemble strategy is evaluated on a dataset consisting of 30 Dow Jones stocks with adequate liquidity. - Performance is compared with the Dow Jones Industrial Average index and a traditional min-variance portfolio allocation strategy. - The Sharpe ratio is used to measure risk-adjusted returns.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>- The ensemble strategy combines multiple DRL algorithms for improved robustness. - It can adapt to various market conditions. - Risk management is incorporated through the turbulence index. - The load-on-demand technique helps handle large datasets efficiently.</td>
+        </tr>
+        <tr>
+          <td>Disadvantages</td>
+          <td>- The paper does not discuss potential limitations or challenges in implementing the proposed framework.</td>
+        </tr>
+        <tr>
+          <td>Tutorials</td>
+          <td>- The paper doesn't provide tutorials or step-by-step guides for implementing the proposed approach. Readers interested in replicating or extending the research may need to refer to other sources or documentation.</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>- The proposed ensemble strategy outperforms individual algorithms and traditional portfolio allocation strategies in terms of risk-adjusted return, as measured by the Sharpe ratio.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+<details>
+  <summary><i>Practical DRL Approach for Stock Trading</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component/Aspect</th>
+          <th>Observation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Environments</td>
+          <td>The paper models the stock trading process as an MDP, considering stock prices, holdings, and balance. Actions include buy, sell, or hold, with rewards based on portfolio value changes.</td>
+        </tr>
+        <tr>
+          <td>DRL Agents</td>
+          <td>The paper utilizes the DDPG algorithm, which comprises actor and critic neural networks. The actor network determines actions, while the critic network evaluates their quality.</td>
+        </tr>
+        <tr>
+          <td>Application</td>
+          <td>The primary application is optimizing stock trading strategies to maximize investment returns in a complex and dynamic stock market.</td>
+        </tr>
+        <tr>
+          <td>Framework</td>
+          <td>The DDPG algorithm is used within the reinforcement learning framework to learn optimal trading strategies.</td>
+        </tr>
+        <tr>
+          <td>Existing Libraries</td>
+          <td>While specific libraries are not mentioned, it's likely that popular deep learning libraries like TensorFlow or PyTorch were used for neural network implementations.</td>
+        </tr>
+        <tr>
+          <td>Data Processing</td>
+          <td>Historical daily stock prices are employed for training and trading data. Data preprocessing involves data splitting into training, validation, and trading sets.</td>
+        </tr>
+        <tr>
+          <td>Benchmarks</td>
+          <td>The paper benchmarks the DDPG-based trading strategy against the Dow Jones Industrial Average (DJIA) and a traditional min-variance portfolio allocation strategy.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>- DDPG is applied to handle the complexity of stock trading. - The paper provides a well-defined problem formulation for reinforcement learning. - Results suggest outperformance of traditional methods in terms of return and Sharpe ratio.</td>
+        </tr>
+        <tr>
+          <td>Disadvantages</td>
+          <td>- Lack of specific details about neural network architectures for actor and critic networks. - Unaddressed issues like overfitting or generalization to different market conditions. - Limited data range covering 30 stocks from 2009 to 2018.</td>
+        </tr>
+        <tr>
+          <td>Tutorials</td>
+          <td>The paper does not include tutorials, but online resources offer tutorials and implementations of DDPG and other reinforcement learning algorithms for stock trading.</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>The paper explores the use of DDPG for optimizing stock trading strategies, showing potential outperformance of traditional methods. Further research is needed for broader applicability.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
 
     
 ##  Data Sources
