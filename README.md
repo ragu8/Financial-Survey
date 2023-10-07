@@ -13,6 +13,7 @@
   - [Recent Advances](#recent-advances)
   - [Publications](#publications)
   - [Related Works](#related-works)
+  - [Observations](#observations)
   - [Data Sources](#data-sources)
   - [Tutorials](#tutorials)
 
@@ -53,6 +54,271 @@ A complete survey paper:
   + Most Relatable Work [csv, ](Docs/most_relatable_work.csv)  [pdf](papers/Relatable-papers)
   + Similar Works [csv](Docs/Similar_work.csv)  
   + Research Rabbit [Links](https://www.researchrabbitapp.com/collection/public/PZ9MYDP0LO)
+
+## Observations
+<details>
+  <summary><i>FinRL-Meta</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component/Aspect</th>
+          <th>Observation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Environments</td>
+          <td>The paper models stock trading as an MDP, with states representing market factors, actions being buying/selling, and rewards tied to portfolio value changes.</td>
+        </tr>
+        <tr>
+          <td>DRL Agents</td>
+          <td>DDPG algorithm with actor-critic neural networks is used for action determination and evaluation.</td>
+        </tr>
+        <tr>
+          <td>Application</td>
+          <td>The primary goal is to optimize stock trading strategies for maximizing returns in dynamic markets.</td>
+        </tr>
+        <tr>
+          <td>Framework</td>
+          <td>DDPG is employed within a reinforcement learning framework for learning optimal trading strategies.</td>
+        </tr>
+        <tr>
+          <td>Existing Libraries</td>
+          <td>While specific libraries aren't mentioned, popular deep learning libraries like TensorFlow or PyTorch are likely used.</td>
+        </tr>
+        <tr>
+          <td>Data Processing</td>
+          <td>Historical daily stock prices are used for training, with data preprocessing involving splitting into training/validation/trading sets.</td>
+        </tr>
+        <tr>
+          <td>Benchmarks</td>
+          <td>DDPG strategy is benchmarked against DJIA and traditional min-variance portfolio allocation strategies.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>- DDPG tackles stock trading complexity.<br>- Results indicate DDPG-based strategy outperforms traditional methods in terms of return and Sharpe ratio.</td>
+        </tr>
+        <tr>
+          <td>Disadvantages</td>
+          <td>- Lack of specific neural network architecture details limits reproducibility.<br>- Unaddressed issues like overfitting and generalization to various market conditions.</td>
+        </tr>
+        <tr>
+          <td>Tutorials</td>
+          <td>The paper does not include tutorials but mentions the availability of online resources with DDPG and RL implementations for stock trading.</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>The paper introduces DDPG and RL for optimizing stock trading, suggesting its superiority over traditional methods. Further research is needed for broader applicability and addressing practical challenges.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary><i>FinRL</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component/Aspect</th>
+          <th>Observation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Components</td>
+          <td>The FinRL framework comprises several components that collectively facilitate algorithmic trading with Deep Reinforcement Learning (DRL).</td>
+        </tr>
+        <tr>
+          <td>Environments</td>
+          <td>The environment layer is crucial in FinRL, as it provides the simulation environment for trading tasks. It supports both standard datasets and user-imported data.</td>
+        </tr>
+        <tr>
+          <td>DRL Agents</td>
+          <td>FinRL allows users to utilize various DRL algorithms from libraries like Stable Baselines 3, RLlib, and ElegantRL, making it adaptable to different trading strategies.</td>
+        </tr>
+        <tr>
+          <td>Application</td>
+          <td>The application layer enables users to define and customize their trading strategies using DRL within the FinRL framework.</td>
+        </tr>
+        <tr>
+          <td>Framework</td>
+          <td>The FinRL framework is designed to provide a structured and modular approach to algorithmic trading with DRL, simplifying the development process.</td>
+        </tr>
+        <tr>
+          <td>Existing Libraries</td>
+          <td>The paper highlights the use of existing DRL libraries like Stable Baselines 3, RLlib, and ElegantRL as part of the framework.</td>
+        </tr>
+        <tr>
+          <td>Data Processing</td>
+          <td>While not explicitly mentioned, data processing is a crucial aspect, as the framework handles various data sources and formats, essential for financial data.</td>
+        </tr>
+        <tr>
+          <td>Benchmarks</td>
+          <td>The paper doesn't explicitly mention benchmarks, but it emphasizes the reproducibility of trading tasks within the framework.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>The advantages of the FinRL framework include modularity, extensibility, simplicity, and applicability to various financial markets, making it a practical tool for algorithmic trading.</td>
+        </tr>
+        <tr>
+          <td>Disadvantages</td>
+          <td>The paper does not discuss specific disadvantages of the framework, which may need further exploration or evaluation.</td>
+        </tr>
+        <tr>
+          <td>Tutorials</td>
+          <td>The framework provides hands-on tutorials in a beginner-friendly fashion to help users get started with algorithmic trading using DRL.</td>
+        </tr>
+        <tr>
+          <td>Conclusion</td>
+          <td>The FinRL framework aims to simplify the development of algorithmic trading strategies using DRL and offers a practical option for financial tasks, especially with the ElegantRL library.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary><i>FinRL-Podracer</i></summary>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>RLOps in Finance Paradigm</td>
+          <td>Introduces the concept of RLOps (Reinforcement Learning Operations) in finance for continuous training and integration of trading strategies.</td>
+        </tr>
+        <tr>
+          <td>FinRL-Podracer Framework</td>
+          <td>A cloud-based solution leveraging GPU clouds to improve trading performance and training efficiency with DRL-driven strategies.</td>
+        </tr>
+        <tr>
+          <td>Generational Evolution Mechanism</td>
+          <td>Employs a generational evolution mechanism with an ensemble strategy to enhance DRL agent trading performance and automate hyperparameter search.</td>
+        </tr>
+        <tr>
+          <td>Scalable Evolution Layer</td>
+          <td>Coordinates parallel agents using generational evolution, including an evaluator and selector, for efficient hyperparameter tuning and agent selection.</td>
+        </tr>
+        <tr>
+          <td>Packaging Worker-Learner into Pod</td>
+          <td>Decomposes DRL training into worker (exploration), replay buffer, and learner (exploitation) components, scalable in GPU pods.</td>
+        </tr>
+        <tr>
+          <td>High-Performance Training Layer</td>
+          <td>Optimizes components with GPU acceleration, efficient replay buffer, and parameter communication for improved training efficiency.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Insights</th>
+          <th>Key insights from the paper</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>RLOps in Finance Paradigm</td>
+          <td>Integrating multiple finance processes into a DRL agent can lead to more automated and efficient trading strategies.</td>
+        </tr>
+        <tr>
+          <td>FinRL-Podracer</td>
+          <td>Addresses challenges in handling large-scale financial data and efficient DRL agent training.</td>
+        </tr>
+        <tr>
+          <td>Generational Evolution</td>
+          <td>Mitigates overfitting and hyperparameter sensitivity, improving training stability and efficiency.</td>
+        </tr>
+        <tr>
+          <td>Scalability & Performance</td>
+          <td>Scalability and hardware optimizations are crucial for handling the computational demands of DRL-driven trading strategies.</td>
+        </tr>
+        <tr>
+          <td>Performance Comparison</td>
+          <td>FinRL-Podracer outperforms existing DRL libraries in annual return, Sharpe ratio, and training time.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Advantages</th>
+          <th>Advantages of FinRL-Podracer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cloud-Based Solution</td>
+          <td>Offers a cloud-based solution for developing and deploying DRL-driven trading strategies with high performance and scalability.</td>
+        </tr>
+        <tr>
+          <td>Hyperparameter Automation</td>
+          <td>Automates hyperparameter tuning and efficiently handles large-scale financial data.</td>
+        </tr>
+        <tr>
+          <td>Enhanced Stability</td>
+          <td>The generational evolution mechanism improves training stability and performance.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Disadvantages</th>
+          <th>Disadvantages of the proposed framework</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lack of Discussion</td>
+          <td>The paper does not discuss potential limitations or challenges in implementing the proposed framework.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Tutorials</th>
+          <th>Information about tutorials or guides provided in the paper</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tutorial Availability</td>
+          <td>The paper does not provide tutorials or step-by-step guides for implementing FinRL-Podracer.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Conclusion</th>
+          <th>Summary and conclusion of the paper's contributions and findings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Framework Summary</td>
+          <td>Introduces FinRL-Podracer, a framework for accelerating DRL-driven trading strategies in quantitative finance, addressing key challenges.</td>
+        </tr>
+        <tr>
+          <td>Promising Approach</td>
+          <td>Emphasizes the importance of RLOps in finance and demonstrates the framework's potential to enhance quantitative trading.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+
     
 ##  Data Sources
 
