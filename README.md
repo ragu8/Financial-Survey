@@ -599,6 +599,18 @@ A complete survey paper:
 OHLCV: open, high, low, and close prices; volume.
 
 
+
+## White Papers  HIGH-FREQUENCY TRADING: a white paper
+
++ [DERA] [High-Frequency Trading Synchronizes Prices in Financial Markets](white-papers/HFT-White_paper01.pdf)
+
++ [STEVENS] [ON THE IMPACT AND FUTURE OF HFT](white-papers/HFT-White_paper02.pdf)
+
++ [Frankfurt] [High-Frequency Trading](white-papers/HFT-White_paper03.pdf)
+
++ [STEVENS+IRRC] [HIGH-FREQUENCY TRADING: a white paper](white-papers/HFT-White_paper04.pdf)
+
+
 ## Tutorials
 #### Books
 <div align="center">
