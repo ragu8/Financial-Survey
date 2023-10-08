@@ -122,15 +122,11 @@ A complete survey paper:
     <table>
       <thead>
         <tr>
-          <th>Component/Aspect</th>
+          <th>Component</th>
           <th>Observation</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Components</td>
-          <td>The FinRL framework comprises several components that collectively facilitate algorithmic trading with Deep Reinforcement Learning (DRL).</td>
-        </tr>
         <tr>
           <td>Environments</td>
           <td>The environment layer is crucial in FinRL, as it provides the simulation environment for trading tasks. It supports both standard datasets and user-imported data.</td>
@@ -187,7 +183,7 @@ A complete survey paper:
       <thead>
         <tr>
           <th>Component</th>
-          <th>Description</th>
+          <th>Observation</th>
         </tr>
       </thead>
       <tbody>
@@ -325,14 +321,10 @@ A complete survey paper:
       <thead>
         <tr>
           <th>Component</th>
-          <th>Description</th>
+          <th>Observation</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Components</td>
-          <td>The paper discusses several key components in the context of portfolio management with deep reinforcement learning (DRL). These components include linear models in hindsight, DRL agents, feature weights, and conventional machine learning methods with forward-pass.</td>
-        </tr>
         <tr>
           <td>Environments</td>
           <td>The paper evaluates the proposed approach in the context of a portfolio management task involving Dow Jones 30 constituent stocks. The data spans from January 1, 2009, to September 1, 2021.</td>
@@ -376,16 +368,11 @@ A complete survey paper:
     <table>
       <thead>
         <tr>
-          <th>Section</th>
-          <th>Summary</th>
+          <th>Components</th>
+          <th>Observation</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Components</td>
-          <td>- Discusses key components in DRL-based portfolio management: linear models, DRL agents, feature weights, and conventional ML methods.</td>
-        </tr>
-        <tr>
           <td>Environments</td>
           <td>- Evaluates DRL approach in portfolio management using Dow Jones 30 stocks from 2009 to 2021.</td>
         </tr>
@@ -441,14 +428,10 @@ A complete survey paper:
       <thead>
         <tr>
           <th>Component</th>
-          <th>Description</th>
+          <th>Observation</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Components</td>
-          <td>- The paper proposes an ensemble strategy for automated stock trading using deep reinforcement learning (DRL). - Three DRL algorithms are employed in the ensemble strategy: Proximal Policy Optimization (PPO), Advantage Actor Critic (A2C), and Deep Deterministic Policy Gradient (DDPG). - The ensemble strategy combines the strengths of these algorithms to adapt to different market situations.</td>
-        </tr>
         <tr>
           <td>Environments</td>
           <td>- The stock trading problem is formulated as a Markov Decision Process (MDP). - The state space includes information like stock prices, stock shares, balance, technical indicators (e.g., MACD, RSI), and more. - The action space allows for buying, selling, or holding stocks in a continuous manner.</td>
@@ -503,7 +486,7 @@ A complete survey paper:
     <table>
       <thead>
         <tr>
-          <th>Component/Aspect</th>
+          <th>Component</th>
           <th>Observation</th>
         </tr>
       </thead>
@@ -514,7 +497,7 @@ A complete survey paper:
         </tr>
         <tr>
           <td>DRL Agents</td>
-          <td>The paper utilizes the DDPG algorithm, which comprises actor and critic neural networks. The actor network determines actions, while the critic network evaluates their quality.</td>
+          <td>The paper utilizes the DDPG algorithm, which comprises actor and critic neural networks. The actor-network determines actions, while the critic network evaluates their quality.</td>
         </tr>
         <tr>
           <td>Application</td>
@@ -550,7 +533,7 @@ A complete survey paper:
         </tr>
         <tr>
           <td>Conclusion</td>
-          <td>The paper explores the use of DDPG for optimizing stock trading strategies, showing potential outperformance of traditional methods. Further research is needed for broader applicability.</td>
+          <td>The paper explores the use of DDPG for optimizing stock trading strategies, showing the potential outperformance of traditional methods. Further research is needed for broader applicability.</td>
         </tr>
       </tbody>
     </table>
