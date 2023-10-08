@@ -62,7 +62,7 @@ A complete survey paper:
     <table>
       <thead>
         <tr>
-          <th>Component/Aspect</th>
+          <th>Component</th>
           <th>Observation</th>
         </tr>
       </thead>
