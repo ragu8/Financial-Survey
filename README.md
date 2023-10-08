@@ -368,7 +368,7 @@ A complete survey paper:
     <table>
       <thead>
         <tr>
-          <th>Components</th>
+          <th>Component</th>
           <th>Observation</th>
         </tr>
       </thead>
