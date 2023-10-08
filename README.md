@@ -15,6 +15,7 @@
   - [Related Works](#related-works)
   - [Observations](#observations)
   - [Data Sources](#data-sources)
+  - [White Papers](#white-papers)
   - [Tutorials](#tutorials)
 
 
@@ -600,7 +601,7 @@ OHLCV: open, high, low, and close prices; volume.
 
 
 
-## White Papers  HIGH-FREQUENCY TRADING: a white paper
+## White Papers  
 
 + [DERA] [High-Frequency Trading Synchronizes Prices in Financial Markets](white-papers/HFT-White_paper01.pdf)
 
