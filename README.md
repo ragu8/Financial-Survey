@@ -53,7 +53,8 @@ A complete survey paper:
 
 ## Related Works
   + Most Relatable Work [csv, ](Docs/most_relatable_work.csv)  [pdf](papers/Relatable-papers)
-  + Similar Works [csv](Docs/Similar_work.csv)  
+  + Similar Works [csv](Docs/Similar_work.csv)
+  + My Work [pdf](Docs/survey.pdf)  
   + Research Rabbit [Links](https://www.researchrabbitapp.com/collection/public/PZ9MYDP0LO)
 
 ## Observations
